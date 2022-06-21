@@ -15,19 +15,20 @@
         font-size: 16px;
         letter-spacing: 0.1em;
         margin: 10px 0;
-        transition: all 0.4s;
-        height: 20px;
         display: flex;
         align-items: center;
         justify-content: flex-start;
+        &:hover {
+          cursor: pointer;
+        }
         .title.bold {
           font-size: 18px;
           letter-spacing: 0;
           font-weight: bold;
         }
-        &:hover {
-          // font-size: 17px;
-          cursor: pointer;
+        span {
+          height: 22px;
+          transition: all 0.5s;
         }
       }
     }

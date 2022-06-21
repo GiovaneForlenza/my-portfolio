@@ -1,11 +1,11 @@
 .content-container {
-  // width: 75vw;
+  width: 70vw;
   height: 90vh;
   position: relative;
   // border: 1px solid #000;
   padding-top: 50px;
-  .projects {
-    // border: 1px solid #000;
+  .projects-container {
+    border: 1px solid #000;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -33,6 +33,21 @@
         font-weight: bold;
         text-align: center;
         margin-top: 20px;
+      }
+    }
+  }
+  .project-page-container {
+    // border: 1px solid #000;
+    .arrow-back-container {
+      // border: 1px solid #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      font-size: 20px;
+      &:hover {
+        cursor: pointer;
       }
     }
   }
